@@ -86,42 +86,31 @@ export default function Contactme(props) {
                 <div className='back-form'>
                     <div className='img-back'>
                         <h4 className='wrap'>
-                            Please, Send Your Message Here!
+                            Please contact me as soon as possible!
                             <p></p>
                             <img className='wraps' src={imgBack} alt='image is missing'/>
                         </h4>
                     </div>
-                    <form onSubmit={submitForm}>
-                        <p>{banner}</p>
-                        <label htmlFor='name'>Name</label>
-                        <input type='text'
-                        onChange={handleName}
-                        value={name}
-                        />
-
-                        <label htmlFor='email'>Email</label>
-                        <input type='email'
-                        onChange={handleEmail}
-                        value={email}                        
-                        />
-
-                        <label htmlFor='message'>Message</label>
-                        <textarea type='text'
-                        onChange={handleMessage}
-                        value={message}
-                        />          
-
-                        <div className='send-btn'>
-                            <button type='submit'>
-                                send
-                                <i className='fa fa-paper-plane'/>
-                                {bool?(<b className='load'>
-                                    <img src={load1} alt='image not responding'/>
-                                </b>):("")}
-                           
-                            </button>
-                        </div>              
-                    </form>
+                    <div style={{display:"flex", alignItems:"center", position:"relative", bottom:0}}>
+                        <form className='contact-form' style={{height:"100%"}}>
+                            <label htmlFor='email' style={{margin:"30px 0 0 0"}}>
+                                <div style={{fontSize:"30px", fontWeight:"bold"}}>
+                                    Email: 
+                                </div>
+                                <button style={{width:"400px"}} type="button" onClick={()=>{window.location.href = "mailto:sgao056@outlook.com"}}>
+                                    Send email to sgao056@outlook.com
+                                </button>
+                            </label>
+                            <label htmlFor='linkedin' style={{margin:"30px 0 0 0"}}>
+                                <div style={{margin:"0 0 20px 0", fontSize:"30px", fontWeight:"bold"}}>
+                                    Linkedin:
+                                </div>
+                                <a href='https://www.linkedin.com/in/shang-gao-0853b8197/'>
+                                    https://www.linkedin.com/in/shang-gao-0853b8197/
+                                </a>
+                            </label>   
+                        </form>
+                    </div>        
                 </div>
             </div>
         </div>

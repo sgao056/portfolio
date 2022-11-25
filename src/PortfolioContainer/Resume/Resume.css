@@ -25,9 +25,11 @@
     padding: 0 0 0 80px;
 }
 .experience-description{
-    margin: 10px 0 0 0;
+    margin: 0;
     text-align: justify;
-    max-width: 100%;
+    max-height: 60%;
+    max-width: 90%;
+    font-size: small;
 }
 .resume-details-carousal{
     transition: transform 1s ease-out;
@@ -83,11 +85,18 @@
     height: 500px;
     width: 100%;
 }
+.experience-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    overflow-y: scroll;
+}
 .resume-heading{
     display: flex;
     flex-direction: column;
 }
 .resume-main-heading{
+    margin-top:50px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -203,3 +212,13 @@
       width: 100%;
     }
   }
+
+.experience-container::-webkit-scrollbar {
+    width: 20px; 
+ }
+
+
+.experience-container::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2) !important;
+  border-radius: 25px !important;
+}

@@ -64,7 +64,7 @@ const Resume = (props) => {
     ];
   
   const frontEndSkillsDetails = [
-      { skill: "HTML", ratingPercentage: 90 },
+      { skill: "HTML", ratingPercentage: 90 },  
       { skill: "CSS", ratingPercentage: 85 },
       { skill: "Javascript", ratingPercentage: 90 },
       { skill: "React", ratingPercentage: 95 },
@@ -89,13 +89,6 @@ const Resume = (props) => {
         duration: { fromDate: "2022/03", toDate: "present" },
         subHeading: "Technologies Used: Vue, Mockjs., echart package, github-pages deploy ",
         link:"https://sgao056.github.io/backend-management-system/"
-      },
-      {
-        title: "Original core of chatroom",
-        duration: { fromDate: "2022/03", toDate: "present" },
-        subHeading:
-          "Technologies Used: React.js, Socket.io., Node.js, express.js,",
-        link:"https://sgao056.github.io/chatroom/"
       },
       {
         title: "Shoes management system",
@@ -139,37 +132,36 @@ const Resume = (props) => {
       <div className="resume-screen-container" key="work-experience">
         <div className="experience-container" >
           <ResumeHeading
-            heading={"WS & Company Ltd."}
+            className="work-history-top"
+            heading={"Megadata Inc."}
             subHeading={"Web Developer"}
-            fromDate={"2021/11 "}
-            toDate={" 2021/12"}
+            fromDate={"2022/06"}
+            toDate={"present"}
           />
-          <div className="experience-description">
-            <span className="resume-description-text">
-              - Supported the ERP system’s migration from PHP to react, and independently implemented plan to support site-wide front-end development strategy by React.js and React Hooks.
-            </span>
+          <ul className="experience-description">
+            <li className="resume-description-text">
+              Reviewing application requirements from clients and optimizing UI/UX design drafted on Figma.
+            </li>
             <br />
-            <span className="resume-description-text">
-              - Developed back-end Restful API by node.js.; performed MySQL Database backup and maintenance.
-            </span>
-          </div>
+            <li className="resume-description-text">
+              Concretizing the layout of web pages using React.js framework based on HTML5, CSS, SASS, ES6 and external dependencies like Bootstrap and Material UI.
+            </li>
+            <br />
+            <li className="resume-description-text">
+               Design, develop, maintain and support Restful API built by Node.js, meanwhile, completing Mysql database interaction with user inferface webpage.
+            </li>
+            <br />
+            <li className="resume-description-text">
+              Build components and pages with Blockchain interaction functions, for example, NFT minting, Metamask, coinbase wallet connection, NFT listing by newest WEB3 api libraries such as Wagmi, Moralis and Alchemy.            </li>
+            <br />
+            <li className="resume-description-text">
+              Working with other team or third-party platforms to install a wide range of tracking codes and digital marketing technologies, remaining current on emerging web technologies and development practices.            </li>
+            <br />
+            <li className="resume-description-text">
+            Deploying full-stack project on-line and maintenance its working fluency. Deployed website link (developed totally by myself): <a href='https://eico.forging.one/'>https://eico.forging.one/</a>            
+            </li>
+          </ul>
           <br />
-          <ResumeHeading
-            heading={"Alba Inc."}
-            subHeading={"Web Development Intern"}
-            fromDate={"2021-08 "}
-            toDate={" 2021/10"}
-          />
-          <div className="experience-description">
-            <span className="resume-description-text">
-              - Assisted the outsourced development team with ERP renovation using HTML, CSS, JavaScript, PHP, and MySQL, enabling features such as appointment scheduling, push notifications, and file uploads.
-            </span>
-            <br />
-            <span className="resume-description-text">
-              - Applied version control software (Git) to track, test, and update pre-existing source code.
-            </span>
-            <br />
-          </div>
         </div>
       </div>,
   
@@ -297,4 +289,3 @@ const Resume = (props) => {
 };
 
 export default Resume;
-

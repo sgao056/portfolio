@@ -1,8 +1,5 @@
 .main-container {
-    min-height: 100vh;
-    /* background-image: url("../../assets/ContactMe/contact_us.jpeg"); */
-  
-    margin: 100px 0 -450px 0;
+    margin: 100px 0;
   }
   
   .central-form {
@@ -94,6 +91,7 @@
     border: 2px solid rgba(30, 85, 250, 0.47);
     background-color: #fff;
   }
+
   form input:focus {
     border: 2px solid rgba(30, 85, 250, 0.47);
     background-color: #fff;
@@ -165,5 +163,8 @@
     .central-form h2 {
       font-size: 16px;
     }
+  }
+  .contact-form{
+    height:300px;
   }
   
