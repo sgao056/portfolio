@@ -31,15 +31,15 @@ export default function Profile() {
                                 steps={[
                                     "Enthusiastic Programmer",
                                     1000,
-                                    "React & Vue utilizer",
+                                    "React utilizer",
                                     1000,
                                     "UI/UX designer(Wordpress)",
                                     1000,
-                                    "Former web developer",
+                                    "Full-stack Web developer",
                                     1000,
-                                    "Junior full-stack programmer",
+                                    "Web3 Programmer",
                                     1000,
-                                    "SQL Database user",
+                                    "Node.js Restful Api",
                                     1000,
                                     "Graduated Master of Engineer",
                                     1000,
@@ -47,7 +47,7 @@ export default function Profile() {
                                 />
                             </h1>
                             <span className="profile-role-tagline">
-                                Deepening New Horizon with Data and Technology.
+                                Deepening New Horizon with Web Development.
                             </span>
                         </span>
                     </div>

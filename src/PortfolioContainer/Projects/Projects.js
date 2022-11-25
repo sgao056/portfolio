@@ -53,6 +53,22 @@ export default function Projects(props) {
                 id="project-carousel"
                 {...options}
               >
+                <div className="col-lg-12">
+                  <div className="project-item">
+                    <div className="project-comment">
+                      <p>
+                        <i className="fa fa-quote-left" />
+                        Based on Web3.js API and 3rd party plugin built full-stack system containing admin-management pages and client-side pages. Main usage is for NFT publishing and claiming with simple blog publishing system.                        
+                        <i className="fa fa-quote-right" />
+                      </p>
+                    </div>
+                    <div className="project-info">
+                      <h5>NFT claim Full-Stack System</h5>
+                      <p>React, Web3 Related</p>
+                    </div>
+                  </div>
+                </div>
+
                  <div className="col-lg-12">
                   <div className="project-item">
                     <div className="project-comment">
@@ -71,39 +87,12 @@ export default function Projects(props) {
 
                 <div className="col-lg-12">
                   <div className="project-item">
-                    <div className="project-desc">
-                      <p>
-                        <i className="fa fa-quote-left" />
-                        An origin app to meet live chating function by React.js, socket.io.
-                        <i className="fa fa-quote-right" />
-                      </p>
-                    </div>
-                    <div className="project-info">
-                      <h5>Original core of chatroom</h5>
-                      <p>React Related</p>
-                    </div>
-                  </div>
-                </div>
-  
-                <div className="col-lg-12">
-                  <div className="project-item">
                     <div className="project-comment">
                       <p>
                         <i className="fa fa-quote-left" />
                         An app using restful api to add, minus, update and delete data of shoes, but just deployed the front-end part.
                         <i className="fa fa-quote-right" />
                       </p>
-                    </div>
-                    <div className="project-info">
-                      <h5>Shoes management system</h5>
-                      <p>React Related</p>
-                    </div>
-                  </div>
-                </div>
-
-                <div className="col-lg-12">
-                  <div className="project-item">
-                    <div className="project-comment">
                       <p>
                         <i className="fa fa-quote-left" />
                         A clone layout of Amazon online shop homepage, using basic functions including function of shopping cart and card payment format.
@@ -111,7 +100,7 @@ export default function Projects(props) {
                       </p>
                     </div>
                     <div className="project-info">
-                      <h5>Amazon clone</h5>
+                      <h5>Amazon clone & Shoes management system</h5>
                       <p>React Related</p>
                     </div>
                   </div>

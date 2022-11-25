@@ -18,11 +18,11 @@ export default function AboutMe(props) {
       "An aspiring Full Stack Web Developer with a strong passion for producing robust, well-designed web solutions throughout the Web Development Life Cycle.",
     highlights: {
       bullets: [
-        "System design, developing, and maintenance",
+        "System designing, developing and maintenance",
         "UI/UX designer(Wordpress)",
-        "Experienced React.js and Vue.js developer.",
-        "SQL Database Development",
-        "Building REST-API with Node.Js, PHP and Java",
+        "Experienced React.js & Redux developer.",
+        "SQL Database Security and CRUD",
+        "Building REST-API with Node.Js",
         "Hardware helper and reliable IT support",
       ],
       heading: "Here are a Few Highlights:",

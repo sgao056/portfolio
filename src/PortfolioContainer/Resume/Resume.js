@@ -44,7 +44,17 @@ const Resume = (props) => {
           { props.link 
             ?
             <div className="resume-heading-description">
+              {
+              typeof(props.link)==="string"
+              ?
               <span><a href={props.link}>{props.link }</a></span>
+              :
+              props.link.map((item)=>{
+                return(
+                  <div><a href={item}>{item}</a></div>
+                )
+              })
+              }
             </div>
             :
             <></>
@@ -65,45 +75,47 @@ const Resume = (props) => {
   
   const frontEndSkillsDetails = [
       { skill: "HTML", ratingPercentage: 90 },  
-      { skill: "CSS", ratingPercentage: 85 },
-      { skill: "Javascript", ratingPercentage: 90 },
+      { skill: "CSS", ratingPercentage: 90 },
+      { skill: "Javascript", ratingPercentage: 95 },
       { skill: "React", ratingPercentage: 95 },
-      { skill: "Vue", ratingPercentage: 70 },
-      { skill: "Redux", ratingPercentage: 65 },
-      { skill: "WordPress", ratingPercentage: 80 },
+      { skill: "Web3.js", ratingPercentage: 70 },
+      { skill: "Redux", ratingPercentage: 90 },
+      { skill: "WordPress", ratingPercentage: 65 },
+      { skill: "UI/UX Plugin", ratingPercentage: 90 }
     ];
   
   const backEndSkillsDetails = [ 
-    { skill: "Node JS", ratingPercentage: 80 },
+    { skill: "NodeJS", ratingPercentage: 90 },
     { skill: "Express", ratingPercentage: 90 },
     { skill: "JAVA", ratingPercentage: 70 },     
-    { skill: "Spring Boot", ratingPercentage: 75 },     
-    { skill: "SQL Server", ratingPercentage: 75 },
-    { skill: "PHP", ratingPercentage: 74 },
-    { skill: "Python", ratingPercentage: 65 },
+    { skill: "SOLIDITY", ratingPercentage: 65 },     
+    { skill: "SQL", ratingPercentage: 80 },
+    { skill: "MySQL Server", ratingPercentage: 80 },
+    { skill: "PHP", ratingPercentage: 50 },
+    { skill: "Python", ratingPercentage: 45 },
   ];
 
   const projectsDetails = [
       {
+        title: "NFT claim Full-Stack System",
+        duration: { fromDate: "2022/08", toDate: "2022/10" },
+        subHeading: "Technologies Used: React.js, Redux, web.js, Moralis-v1, node.js, express, mysql",
+        link:"https://eico.forging.one/"
+      },
+      {
         title: "Backend management system",
-        duration: { fromDate: "2022/03", toDate: "present" },
+        duration: { fromDate: "2022/03", toDate: "2022/06" },
         subHeading: "Technologies Used: Vue, Mockjs., echart package, github-pages deploy ",
         link:"https://sgao056.github.io/backend-management-system/"
       },
       {
-        title: "Shoes management system",
-        duration: { fromDate: "2021/06", toDate: "2021/07"},
+        title: "Amazon clone & Shoes management system",
+        duration: { fromDate: "2021/01", toDate: "2021/07"},
         subHeading:
           "Technologies Used: React.js, node.js, express",
-          link:"https://sgao056.github.io/shoes-shop/"
-      },
-      {
-        title: "Amazon clone",
-        duration: { fromDate: "2021/01", toDate: "2021/04"},
-        subHeading:
-          "Technologies Used: React.js React Hook, Firebase",
-          link:"https://sgao056.github.io/amazon-mirror/"
-        },
+          link:["https://sgao056.github.io/shoes-shop/", "https://sgao056.github.io/amazon-mirror/"]
+
+      }
     ];
   
   const resumeDetails = [
@@ -116,7 +128,7 @@ const Resume = (props) => {
         />
         <ResumeHeading
           heading={"Ucareer Bootcamp, Canada(on-line)"}
-          subHeading={"Certificate, Web development"}
+          subHeading={"Intern Training, Web development"}
           fromDate={"2021/05"}
           toDate={"2021/10"}
         />
