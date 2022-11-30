@@ -64,7 +64,7 @@ export default function AboutMe(props) {
                 style={{color:"white"}}
                 onClick={() => ScrollService.scrollHandler.scrollToHireMe()}
                 > Let's Discuss! </button>
-              <a href="Resume.pdf" download="Sean Gao's Resume.pdf">
+              <a href="Resume.pdf" download="Shang Gao's Resume.pdf">
                 <button className="btn highlighted-btn ">Get Resume</button>
               </a>
             </div>
