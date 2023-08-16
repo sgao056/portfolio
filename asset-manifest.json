@@ -1,37 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.8199c061.chunk.css",
-    "main.js": "/portfolio/static/js/main.f1e0f82f.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.f1e0f82f.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.457fe143.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.457fe143.js.map",
-    "static/css/2.81898878.chunk.css": "/portfolio/static/css/2.81898878.chunk.css",
-    "static/js/2.b5cc377b.chunk.js": "/portfolio/static/js/2.b5cc377b.chunk.js",
-    "static/js/2.b5cc377b.chunk.js.map": "/portfolio/static/js/2.b5cc377b.chunk.js.map",
-    "static/js/3.88e269e7.chunk.js": "/portfolio/static/js/3.88e269e7.chunk.js",
-    "static/js/3.88e269e7.chunk.js.map": "/portfolio/static/js/3.88e269e7.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/2.81898878.chunk.css.map": "/portfolio/static/css/2.81898878.chunk.css.map",
-    "static/css/main.8199c061.chunk.css.map": "/portfolio/static/css/main.8199c061.chunk.css.map",
-    "static/js/2.b5cc377b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b5cc377b.chunk.js.LICENSE.txt",
-    "static/media/index.css": "/portfolio/static/media/Poppins-Thin.a61eaf4c.ttf",
-    "static/media/Profile.css": "/portfolio/static/media/Profpic.614b62ae.jpg",
-    "static/media/Projects.css": "/portfolio/static/media/bg-21.4749192c.png",
-    "static/media/Home.css": "/portfolio/static/media/bg.416c24db.png",
-    "static/media/education.svg": "/portfolio/static/media/education.10cfa28a.svg",
-    "static/media/interests.svg": "/portfolio/static/media/interests.809890a3.svg",
-    "static/media/mailz.56037d17.png": "/portfolio/static/media/mailz.56037d17.png",
-    "static/media/AboutMe.css": "/portfolio/static/media/me.3b7d6593.jpg",
-    "static/media/programming-skills.svg": "/portfolio/static/media/programming-skills.d19983a9.svg",
-    "static/media/projects.svg": "/portfolio/static/media/projects.2b352a52.svg",
-    "static/media/shape-bg.png": "/portfolio/static/media/shape-bg.326788c9.png",
-    "static/media/work-history.svg": "/portfolio/static/media/work-history.a566475d.svg"
+    "main.css": "/portfolio/static/css/main.8a97e59e.css",
+    "main.js": "/portfolio/static/js/main.b2116eba.js",
+    "static/media/wechat.jpg": "/portfolio/static/media/wechat.c5d0adc79f223f2ab438.jpg",
+    "static/media/me.jpg": "/portfolio/static/media/me.3b7d65935ae79c75640f.jpg",
+    "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
-    "static/js/runtime-main.457fe143.js",
-    "static/css/2.81898878.chunk.css",
-    "static/js/2.b5cc377b.chunk.js",
-    "static/css/main.8199c061.chunk.css",
-    "static/js/main.f1e0f82f.chunk.js"
+    "static/css/main.8a97e59e.css",
+    "static/js/main.b2116eba.js"
   ]
 }
