@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8a97e59e.css",
-    "main.js": "/portfolio/static/js/main.b2116eba.js",
+    "main.js": "/portfolio/static/js/main.8540a7e4.js",
     "static/media/wechat.jpg": "/portfolio/static/media/wechat.c5d0adc79f223f2ab438.jpg",
     "static/media/me.jpg": "/portfolio/static/media/me.3b7d65935ae79c75640f.jpg",
     "index.html": "/portfolio/index.html"
   },
   "entrypoints": [
     "static/css/main.8a97e59e.css",
-    "static/js/main.b2116eba.js"
+    "static/js/main.8540a7e4.js"
   ]
 }
